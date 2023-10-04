@@ -14,14 +14,14 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 
 #### Attribute Information:
 
-name - _ASCII subject name and recording number_
-MDVP:Fo(Hz) - _Average vocal fundamental frequency_
-MDVP:Fhi(Hz) - _Maximum vocal fundamental frequency_
-MDVP:Flo(Hz) - _Minimum vocal fundamental frequency_
-MDVP: Jitter(%), MDVP: Jitter(Abs), MDVP: RAP, MDVP: PPQ, Jitter: DDP - _Several measures of variation in fundamental frequency_
-MDVP:Shimmer, MDVP: Shimmer(dB), Shimmer: APQ3, Shimmer: APQ5, MDVP: APQ, Shimmer: DDA - _Several measures of variation in amplitude_
-NHR, HNR - _Two measures of the ratio of noise to tonal components in the voice_
-RPDE, D2 - _Two nonlinear dynamical complexity measures_
-DFA - _Signal fractal scaling exponent_
-spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
-Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
+- name - _ASCII subject name and recording number_
+- MDVP:Fo(Hz) - _Average vocal fundamental frequency_
+- MDVP:Fhi(Hz) - _Maximum vocal fundamental frequency_
+- MDVP:Flo(Hz) - _Minimum vocal fundamental frequency_
+- MDVP: Jitter(%), MDVP: Jitter(Abs), MDVP: RAP, MDVP: PPQ, Jitter: DDP - _Several measures of variation in fundamental frequency_
+- MDVP:Shimmer, MDVP: Shimmer(dB), Shimmer: APQ3, Shimmer: APQ5, MDVP: APQ, Shimmer: DDA - _Several measures of variation in amplitude_
+- NHR, HNR - _Two measures of the ratio of noise to tonal components in the voice_
+- RPDE, D2 - _Two nonlinear dynamical complexity measures_
+- DFA - _Signal fractal scaling exponent_
+- spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
+- Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_

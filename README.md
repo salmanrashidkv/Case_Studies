@@ -1,7 +1,23 @@
 # Case_Studies
 This repository hosts sample projects that demonstrate various real-world scenarios using different datasets.
 
-### 1. Parkinsons Disease Detection Using Ensemble Methods
+### 1. Aerofit - Descriptive Statistics & Probability
+##### Data Set Information:
+The market research team at AeroFit wants to identify the characteristics of the target audience for each type of treadmill offered by the company, to provide a better recommendation of the treadmills to the new customers. The team decides to investigate whether there are differences across the product with respect to customer characteristics.
+Perform descriptive analytics to create a customer profile for each AeroFit treadmill product by developing appropriate tables and charts.
+For each AeroFit treadmill product, construct two-way contingency tables and compute all conditional and marginal probabilities along with their insights/impact on the business
+#### Attribute Information:
+- Product Purchased : KP281, KP481, or KP781
+- Age : _In years_
+- Gender : _Male/Female_
+- Education : _In years_
+- MaritalStatus : _Single or Partnered_
+- Usage : _The average number of times the customer plans to use the treadmill each week_
+- Income : _Annual income (in dollars)_
+- Fitness : _Self-rated fitness on a 1 to 5 scale, where 1 is the poor shape and 5 is the excellent shape_
+- Miles : _The average number of miles the customer expects to walk/run each week_
+
+### 2. Parkinsons Disease Detection Using Ensemble Methods
 The data consists of those diagnosed with Parkinson's Disease and those who do not.
 
 #### Source:

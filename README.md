@@ -68,3 +68,24 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 - Marital_Status : _Marital Status_
 - Product_Category : _Product Category (Masked)_
 - Purchase : _Purchase Amount_
+
+### 5. Yulu - Hypothesis Testing
+##### Data Set Information:
+Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting. Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient!
+#### Attribute Information:
+- datetime: _datetime_
+- season: _season (1: spring, 2: summer, 3: fall, 4: winter)_
+- holiday: _whether day is a holiday or not_
+- workingday: _if day is neither weekend nor holiday is 1, otherwise is 0_
+- weather:
+  1: __Clear, Few clouds, partly cloudy, partly cloudy_
+  2: _Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist_
+  3: _Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds_
+  4: _Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog_
+- temp: _temperature in Celsius_
+- atemp: _feeling temperature in Celsius_
+- humidity: _humidity_
+- windspeed: _wind speed_
+- casual: _count of casual users_
+- registered: _count of registered users_
+- count: _count of total rental bikes including both casual and registered_

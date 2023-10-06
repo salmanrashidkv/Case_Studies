@@ -53,3 +53,18 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 - DFA - _Signal fractal scaling exponent_
 - spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
 - Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
+
+### 4. Walmart - Confidence Interval and Central Limit Theorem
+##### Data Set Information:
+The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men?
+#### Attribute Information:
+- User_ID : _User ID_
+- Product_ID : _Product ID_
+- Gender : _Sex of User_
+- Age : _Age in bins_
+- Occupation : _Occupation (Masked)_
+- City_Category : _Category of the City (A,B,C)_
+- Stay_In_Current_City_Years : _Number of years stay in current city_
+- Marital_Status : _Marital Status_
+- Product_Category : _Product Category (Masked)_
+- Purchase : _Purchase Amount_

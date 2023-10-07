@@ -40,7 +40,7 @@ The company wants to understand and process the data coming out of data engineer
 - actual_time – _actual time taken to complete the delivery (cumulative)_
 - osrm_time – _an open-source routing engine time calculator which computes the shortest path between points in a given map
 (includes usual traffic, distance through major and minor roads) and gives the time (cumulative)_
-- osrm_distance – _an open-source routing engine which computes the shortest path between points in a given map_
+- osrm_distance – _an open-source routing engine which computes the shortest path between points in a given map
 (includes usual traffic, distance through major and minor roads) (cumulative)_
 - segment_actual_time – _this is a segment time. Time taken by the subset of the package delivery_
 - segment_osrm_time – _this is the OSRM segment time. Time taken by the subset of the package delivery_
@@ -64,7 +64,7 @@ Analyze the data and generate insights that could help Netflix team deciding whi
 - Listed_in: _Genre_
 - Description: _The summary description_
 
-### 3. Parkinsons Disease Detection Using Ensemble Methods
+### 4. Parkinsons Disease Detection Using Ensemble Methods
 The data consists of those diagnosed with Parkinson's Disease and those who do not.
 #### Source:
 The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, which recorded the speech signals. The original study published the feature extraction methods for general voice disorders.
@@ -83,7 +83,7 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 - spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
 - Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
 
-### 4. Walmart - Confidence Interval and Central Limit Theorem
+### 5. Walmart - Confidence Interval and Central Limit Theorem
 ##### Data Set Information:
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men?
 #### Attribute Information:
@@ -98,7 +98,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 - Product_Category : _Product Category (Masked)_
 - Purchase : _Purchase Amount_
 
-### 5. Yulu - Hypothesis Testing
+### 6. Yulu - Hypothesis Testing
 ##### Data Set Information:
 Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting. Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient!
 #### Attribute Information:

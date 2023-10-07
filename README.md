@@ -17,7 +17,36 @@ For each AeroFit treadmill product, construct two-way contingency tables and com
 - Fitness : _Self-rated fitness on a 1 to 5 scale, where 1 is the poor shape and 5 is the excellent shape_
 - Miles : _The average number of miles the customer expects to walk/run each week_
 
-### 2. Netflix - Data Exploration and Visualisation
+### 2. Delhivery - Feature Engineering
+##### Data Set Information:
+Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, logistics operations of the highest quality, and cutting-edge engineering and technology capabilities. The Data team builds intelligence and capabilities using this data that helps them to widen the gap between the quality, efficiency, and profitability of their business versus their competitors.
+The company wants to understand and process the data coming out of data engineering pipelines. Clean, sanitize and manipulate data to get useful features out of raw fields. Make sense out of the raw data and help the data science team to build forecasting models on it.
+#### Attribute Information:
+- data - _whether the data is testing or training data_
+- trip_creation_time – _timestamp of trip creation_
+- route_schedule_uuid – _unique Id for a particular route schedule_
+- route_type – _Transportation type_
+- FTL – _Full Truck Load: FTL shipments get to the destination sooner, as the truck is making no other pickups or drop-offs along the way_
+- Carting - _handling system consisting of small vehicles (carts)_
+- trip_uuid - _unique ID given to a particular trip (A trip may include different source and destination centers)_
+- source_center - _source ID of trip origin_
+- source_name - _source Name of trip origin_
+- destination_cente – _destination ID_
+- destination_name – _destination Name_
+- od_start_time – _trip start time_
+- od_end_time – _trip end time_
+- start_scan_to_end_scan – _time taken to deliver from source to destination_
+- actual_distance_to_destination – _distance in Kms between source and destination warehouse_
+- actual_time – _actual time taken to complete the delivery (cumulative)_
+- osrm_time – _an open-source routing engine time calculator which computes the shortest path between points in a given map
+(includes usual traffic, distance through major and minor roads) and gives the time (cumulative)_
+- osrm_distance – _an open-source routing engine which computes the shortest path between points in a given map_
+(includes usual traffic, distance through major and minor roads) (cumulative)_
+- segment_actual_time – _this is a segment time. Time taken by the subset of the package delivery_
+- segment_osrm_time – _this is the OSRM segment time. Time taken by the subset of the package delivery_
+- segment_osrm_distance – _this is the OSRM distance. Distance covered by subset of the package delivery_
+
+### 3. Netflix - Data Exploration and Visualisation
 ##### Data Set Information:
 Netflix is one of the most popular media and video streaming platforms. They have over 10000 movies or tv shows available on their platform, as of mid-2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as cast, directors, ratings, release year, duration, etc.
 Analyze the data and generate insights that could help Netflix team deciding which type of shows/movies to produce and how they can grow the business in different countries.

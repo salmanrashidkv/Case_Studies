@@ -1,7 +1,21 @@
 # Case_Studies
 This repository hosts sample projects that demonstrate various real-world scenarios using different datasets.
+### 1. Metro Interstate Traffic Volume - Supervised Learning Accuracy Check
+##### Data Set Information:
+This project serves to allow organizations to evaluate my skills. My explanations will be brief so as not to take up too much of your time. This project aims to determine the indicators of heavy traffic on I-94 using the 'Metro Interstate Traffic Volume' dataset by John Hogue. The original dataset can be found at the UCI Machine Learning Repository.
+It should be noted that the documentation states that this dataset records only westbound traffic volume for MN DoT ATR station 301, and the data was recorded from October 2, 2012 to September 30, 2018.
+#### Attribute Information:
+- holiday : Categorical - _US National holidays plus regional holiday, Minnesota State Fair_
+- temp : Numeric - _Average temp in kelvin_
+- rain_1h : Numeric - _Amount in mm of rain that occurred in the hour_
+- snow_1h : Numeric - _Amount in mm of snow that occurred in the hour_
+- clouds_all : Numeric - _Percentage of cloud cover_
+- weather_main : Categorical - _Short textual description of the current weather_
+- weather_description : Categorical - _Longer textual description of the current weather_
+- date_time : DateTime - _Hour of the data collected in local CST time_
+- traffic_volume : Numeric - _Hourly I-94 ATR 301 reported westbound traffic volume_
 
-### 1. Aerofit - Descriptive Statistics & Probability
+### 2. Aerofit - Descriptive Statistics & Probability
 ##### Data Set Information:
 The market research team at AeroFit wants to identify the characteristics of the target audience for each type of treadmill offered by the company, to provide a better recommendation of the treadmills to the new customers. The team decides to investigate whether there are differences across the product with respect to customer characteristics.
 Perform descriptive analytics to create a customer profile for each AeroFit treadmill product by developing appropriate tables and charts.
@@ -17,7 +31,7 @@ For each AeroFit treadmill product, construct two-way contingency tables and com
 - Fitness : _Self-rated fitness on a 1 to 5 scale, where 1 is the poor shape and 5 is the excellent shape_
 - Miles : _The average number of miles the customer expects to walk/run each week_
 
-### 2. Delhivery - Feature Engineering
+### 3. Delhivery - Feature Engineering
 ##### Data Set Information:
 Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, logistics operations of the highest quality, and cutting-edge engineering and technology capabilities. The Data team builds intelligence and capabilities using this data that helps them to widen the gap between the quality, efficiency, and profitability of their business versus their competitors.
 The company wants to understand and process the data coming out of data engineering pipelines. Clean, sanitize and manipulate data to get useful features out of raw fields. Make sense out of the raw data and help the data science team to build forecasting models on it.
@@ -46,7 +60,7 @@ The company wants to understand and process the data coming out of data engineer
 - segment_osrm_time – _this is the OSRM segment time. Time taken by the subset of the package delivery_
 - segment_osrm_distance – _this is the OSRM distance. Distance covered by subset of the package delivery_
 
-### 3. Netflix - Data Exploration and Visualisation
+### 4. Netflix - Data Exploration and Visualisation
 ##### Data Set Information:
 Netflix is one of the most popular media and video streaming platforms. They have over 10000 movies or tv shows available on their platform, as of mid-2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as cast, directors, ratings, release year, duration, etc.
 Analyze the data and generate insights that could help Netflix team deciding which type of shows/movies to produce and how they can grow the business in different countries.
@@ -64,7 +78,7 @@ Analyze the data and generate insights that could help Netflix team deciding whi
 - Listed_in: _Genre_
 - Description: _The summary description_
 
-### 4. Parkinsons Disease Detection Using Ensemble Methods
+### 5. Parkinsons Disease Detection Using Ensemble Methods
 The data consists of those diagnosed with Parkinson's Disease and those who do not.
 #### Source:
 The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, which recorded the speech signals. The original study published the feature extraction methods for general voice disorders.
@@ -83,7 +97,7 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 - spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
 - Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
 
-### 5. Walmart - Confidence Interval and Central Limit Theorem
+### 6. Walmart - Confidence Interval and Central Limit Theorem
 ##### Data Set Information:
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men?
 #### Attribute Information:
@@ -98,7 +112,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 - Product_Category : _Product Category (Masked)_
 - Purchase : _Purchase Amount_
 
-### 6. Yulu - Hypothesis Testing
+### 7. Yulu - Hypothesis Testing
 ##### Data Set Information:
 Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting. Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient!
 #### Attribute Information:

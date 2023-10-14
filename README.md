@@ -60,7 +60,23 @@ The company wants to understand and process the data coming out of data engineer
 - segment_osrm_time – _this is the OSRM segment time. Time taken by the subset of the package delivery_
 - segment_osrm_distance – _this is the OSRM distance. Distance covered by subset of the package delivery_
 
-### 4. Netflix - Data Exploration and Visualisation
+### 4. ## Jamboree Education - Linear Regression
+##### Data Set Information:
+Jamboree has helped thousands of students like you make it to top colleges abroad. Be it GMAT, GRE or SAT, their unique problemsolving methods ensure maximum scores with minimum effort. They recently launched a feature where students/learners can come to their website and check their probability of getting into the IVY league college. This feature estimates the chances of graduate admission from an Indian perspective.
+
+Your analysis will help Jamboree in understanding what factors are important in graduate admissions and how these factors are interrelated among themselves. It will also help predict one's chances of admission given the rest of the variables.
+#### Attribute Information:
+- Serial No. : _Unique row ID_
+- GRE Scores : _out of 340_
+- TOEFL Scores : _out of 120_
+- University Rating : _out of 5_
+- Statement of Purpose : _out of 5_
+- Letter of Recommendation Strength : _out of 5_
+- Undergraduate GPA : _out of 10_
+- Research Experience : _either 0 or 1_
+- Chance of Admit : _ranging from 0 to 1_
+
+### 5. Netflix - Data Exploration and Visualisation
 ##### Data Set Information:
 Netflix is one of the most popular media and video streaming platforms. They have over 10000 movies or tv shows available on their platform, as of mid-2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as cast, directors, ratings, release year, duration, etc.
 Analyze the data and generate insights that could help Netflix team deciding which type of shows/movies to produce and how they can grow the business in different countries.
@@ -78,7 +94,7 @@ Analyze the data and generate insights that could help Netflix team deciding whi
 - Listed_in: _Genre_
 - Description: _The summary description_
 
-### 5. Parkinsons Disease Detection Using Ensemble Methods
+### 6. Parkinsons Disease Detection Using Ensemble Methods
 The data consists of those diagnosed with Parkinson's Disease and those who do not.
 #### Source:
 The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, which recorded the speech signals. The original study published the feature extraction methods for general voice disorders.
@@ -97,7 +113,7 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 - spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
 - Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
 
-### 6. Walmart - Confidence Interval and Central Limit Theorem
+### 7. Walmart - Confidence Interval and Central Limit Theorem
 ##### Data Set Information:
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men?
 #### Attribute Information:
@@ -112,7 +128,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 - Product_Category : _Product Category (Masked)_
 - Purchase : _Purchase Amount_
 
-### 7. Yulu - Hypothesis Testing
+### 8. Yulu - Hypothesis Testing
 ##### Data Set Information:
 Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting. Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient!
 #### Attribute Information:

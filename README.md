@@ -59,8 +59,24 @@ The company wants to understand and process the data coming out of data engineer
 - segment_actual_time – _this is a segment time. Time taken by the subset of the package delivery_
 - segment_osrm_time – _this is the OSRM segment time. Time taken by the subset of the package delivery_
 - segment_osrm_distance – _this is the OSRM distance. Distance covered by subset of the package delivery_
-
-### 4. ## Jamboree Education - Linear Regression
+### 4. ## Instagram Reach Analysis
+##### Data Set Information:
+Instagram generates a lot of data every day. When content creators post on Instagram, they do look at their engagement and reach to find the category of posts they should post more. Here’s the Instagram Data we collected from the account of the founder of Statso. Below are all the features in the data:
+#### Attribute Information:
+- Impressions: _Number of impressions in a post (Reach)_
+- From Home: _Reach from home_
+- From Hashtags: _Reach from Hashtags_
+- From Explore: _Reach from Explore_
+- From Other: _Reach from other sources_
+- Saves: _Number of saves_
+- Comments: _Number of comments_
+- Shares: _Number of shares_
+- Likes: _Number of Likes_
+- Profile Visits: _Numer of profile visits from the post_
+- Follows: _Number of Follows from the post_
+- Caption: _Caption of the post_
+- Hashtags: _Hashtags used in the post_
+### 5. ## Jamboree Education - Linear Regression
 ##### Data Set Information:
 Jamboree has helped thousands of students like you make it to top colleges abroad. Be it GMAT, GRE or SAT, their unique problemsolving methods ensure maximum scores with minimum effort. They recently launched a feature where students/learners can come to their website and check their probability of getting into the IVY league college. This feature estimates the chances of graduate admission from an Indian perspective.
 
@@ -76,7 +92,7 @@ Your analysis will help Jamboree in understanding what factors are important in 
 - Research Experience : _either 0 or 1_
 - Chance of Admit : _ranging from 0 to 1_
 
-### 5. Netflix - Data Exploration and Visualisation
+### 6. Netflix - Data Exploration and Visualisation
 ##### Data Set Information:
 Netflix is one of the most popular media and video streaming platforms. They have over 10000 movies or tv shows available on their platform, as of mid-2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as cast, directors, ratings, release year, duration, etc.
 Analyze the data and generate insights that could help Netflix team deciding which type of shows/movies to produce and how they can grow the business in different countries.
@@ -94,7 +110,7 @@ Analyze the data and generate insights that could help Netflix team deciding whi
 - Listed_in: _Genre_
 - Description: _The summary description_
 
-### 6. Parkinsons Disease Detection Using Ensemble Methods
+### 7. Parkinsons Disease Detection Using Ensemble Methods
 The data consists of those diagnosed with Parkinson's Disease and those who do not.
 #### Source:
 The dataset was created by Max Little of the University of Oxford, in collaboration with the National Centre for Voice and Speech, Denver, Colorado, which recorded the speech signals. The original study published the feature extraction methods for general voice disorders.
@@ -113,7 +129,7 @@ This dataset is composed of a range of biomedical voice measurements from 31 peo
 - spread1, spread2, PPE - _Three nonlinear measures of fundamental frequency variation_
 - Status - _Health status of the subject (one) - Parkinson's, (zero) - healthy_
 
-### 7. Walmart - Confidence Interval and Central Limit Theorem
+### 8. Walmart - Confidence Interval and Central Limit Theorem
 ##### Data Set Information:
 The Management team at Walmart Inc. wants to analyze the customer purchase behavior (specifically, purchase amount) against the customer’s gender and the various other factors to help the business make better decisions. They want to understand if the spending habits differ between male and female customers: Do women spend more on Black Friday than men?
 #### Attribute Information:
@@ -128,7 +144,7 @@ The Management team at Walmart Inc. wants to analyze the customer purchase behav
 - Product_Category : _Product Category (Masked)_
 - Purchase : _Purchase Amount_
 
-### 8. Yulu - Hypothesis Testing
+### 9. Yulu - Hypothesis Testing
 ##### Data Set Information:
 Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting. Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient!
 #### Attribute Information:
